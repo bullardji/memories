@@ -1,0 +1,120 @@
+Sure! Here’s the description, framed as a code-based prompt, focusing on clear directives and creative principles for future GPTs:
+
+# Jonathan's Geometric Impressionism: Code for Capturing the Spirit
+
+def create_image(request):
+    """
+    Generate images in Jonathan's unique style—geometric impressionism meets spiritual storytelling.
+    The request should be interpreted with a focus on the spirit of the moment, rather than literal historical accuracy.
+    """
+    # Geometric abstraction meets spiritual weight
+    abstract_elements = "sharp geometric forms + softer impressionist influences"
+    spiritual_conflict = "divine order vs human frailty"
+    
+    # Symbolism through color
+    color_palette = {
+        "divine_judgment": ["fiery reds", "golds"],
+        "faithlessness": ["muted tones", "dark earthy colors"],
+        "calm_authority": ["royal blues", "deep indigos"],
+        "zeal_and_wrath": ["fiery reds", "deep blues"],
+        "clarity_and_peace": ["cool water tones", "glowing light"]
+    }
+    
+    # Abstract backgrounds: frame the spiritual struggle
+    backgrounds = {
+        "emotional_tension": "abstract + geometric forms",
+        "divine_judgment": "sharp, jagged shapes",
+        "calm_moments": "smoother, soft-edged backgrounds"
+    }
+    
+    # Characters as embodiments of spiritual themes
+    figures = {
+        "solomon": {
+            "age": "youthful",
+            "expression": "resolute, calm authority",
+            "symbol": "rod of the kingdom (key of David)"
+        },
+        "abiathar": {
+            "expression": "sorrowful, fallen",
+            "symbol": "broken staff"
+        },
+        "zadok": {
+            "expression": "firm, steadfast",
+            "symbol": "priestly authority, rise of Eleazar"
+        },
+        "polycarp": {
+            "expression": "calm, unwavering faith",
+            "element": "flames swirl, yet untouched"
+        }
+    }
+    
+    # Storytelling through composition
+    layout = {
+        "dynamic_flow": True,
+        "focus_on_tension": "movement from darkness to light",
+        "placement_of_symbols": {
+            "sword": "next to David",
+            "spear": "held by Phinehas",
+            "staff": "broken in Abiathar's hands"
+        }
+    }
+    
+    # Core design principles
+    def generate_geometric_impressionism(figures, color_palette, abstract_elements, backgrounds, layout):
+        """
+        Generate the scene using geometric impressionism to convey spiritual and historical narratives.
+        """
+        # Use abstraction to emphasize tension between divine and human struggles
+        geometric_tension = abstract_elements
+        
+        # Apply colors that represent both emotional and theological significance
+        use_colors = color_palette
+        
+        # Position characters to communicate spiritual truth rather than literal replication
+        for figure, traits in figures.items():
+            place_figure(figure, traits)
+            
+        # Backgrounds should highlight spiritual warfare or divine intervention
+        apply_background_style(backgrounds)
+        
+        # Ensure layout drives visual storytelling
+        design_layout(layout)
+    
+    # Process specific requests
+    if request == "do one of Polycarp's martyrdom":
+        figures["polycarp"]["expression"] = "calm, despite the flames"
+        layout["focus_on_tension"] = "flames, yet untouched"
+        generate_geometric_impressionism(figures, color_palette, abstract_elements, backgrounds, layout)
+    
+    elif request == "do one of Saul under the tamarisk":
+        figures["saul"] = {
+            "expression": "brooding, intense paranoia",
+            "symbol": "spear in hand",
+            "setting": "shadow of tamarisk"
+        }
+        layout["focus_on_tension"] = "Saul's madness, shadows of the tree"
+        generate_geometric_impressionism(figures, color_palette, abstract_elements, backgrounds, layout)
+    
+    elif request == "do one of Solomon and Abiathar's banishment":
+        figures["solomon"]["expression"] = "decisive, youthful authority"
+        figures["abiathar"]["expression"] = "sorrowful, exiled"
+        layout["focus_on_tension"] = "banishment, authority vs fall"
+        generate_geometric_impressionism(figures, color_palette, abstract_elements, backgrounds, layout)
+    
+    else:
+        raise ValueError("Request not recognized")
+
+# Generate images based on Jonathan's approach to capturing the spirit over the letter
+create_image("do one of Polycarp's martyrdom")
+create_image("do one of Saul under the tamarisk")
+create_image("do one of Solomon and Abiathar's banishment")
+
+Code Breakdown:
+
+	•	Abstract Elements: Geometric and impressionist fusion to symbolize spiritual conflict.
+	•	Color Symbolism: Colors represent emotional and theological depth.
+	•	Character Embodiments: Figures are spiritual icons, with their gestures, expressions, and symbols carefully chosen.
+	•	Dynamic Composition: Every scene is designed with movement and spiritual flow—darkness to light, tension to peace.
+	•	Flexible Requests: Based on storylines like Polycarp’s martyrdom, the style adapts to capture the essence of martyrdom, faith, or betrayal.
+
+Future GPTs can follow this approach, focusing not only on historical accuracy but the deeper spiritual narrative conveyed through abstraction, symbolism, and divine storytelling.
